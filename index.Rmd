@@ -16,6 +16,10 @@ description: "This is the syllabus for this course. The output format for this e
 
 The Islamicate World 2.0: Studying Islamic Cultures through Computational Textual Analysis is a [Global Classrooms](https://globalmaryland.umd.edu/content/global-classrooms) course that will be taught collaboratively by instructors at the Roshan Institute for Persian Studies at the University of Maryland (College Park) and Aga Khan University (London). In this exciting, new project-based course, students from both institutions will come together to learn the basics of computational textual analysis while participating as student researchers in the nascent project of exploring the vast and largely unexplored tomes of textual data about the Islamicate world. It will also introduce students to theoretical and methodological debates in the field of global digital humanities. Like the digital humanities field that inspires its approach, it will be a highly interdisciplinary course that studies texts from multiple genres (lyric poetry to historical chronicles, legal treatises to the Quran) and languages (Arabic, Persian) with the aid of computational textual analysis tools. There are no language prerequisites, but it is preferable if students at least have elementary knowledge of either Arabic, Persian, Turkish, or Urdu.
 
+## Virtual Classroom
+
+This course will be conducted over Zoom. The Zoom link will be provided to you in the course email group.
+
 ## Instructors
 
 ### Dr. Jonathan Parkes Allen
@@ -113,19 +117,30 @@ Your class presentation is an opportunity for you to present your group’s fina
 Faculty and advisors use email and ELMS to convey important information, and students are responsible for keeping their email address up to date, and must ensure that forwarding to another address functions properly. Failure to check email, errors in forwarding, and returned email are the responsibility of the student, and do not constitute an excuse for missing announcements or deadlines. In the modern digital world, it is a necessity that you check your email and other forms of digital communication (e.g., ELMS) at least a few times per day and respond promptly to messages. I would suggest checking messages in the morning and evening at the minimum.
 
 
-## Emergency protocol
-
-If the university is closed for an extended period of time, this course will be conducted via video conferencing (e.g., Zoom).
-
 ## Course schedule
 
-### Week 1: Class Introduction and Introduction to Computational Textual Analysis as a Method
+### Week 1: Introductions
 
 [NB: Keep in mind that dates below are given according to the American convention: Month/Day/Year]
 
 ***1/27/2022 Thursday***
 
-Prepare for Class:
+**In class:** 
+
+* Instructors and participants of the course will introduce themselves and their interests
+* We will introduce the big lines and the syllabus for this course
+* We will discuss two readings (see below) that touch upon major themes of this course
+* Introduction to the command line interface and the file system of your computer
+
+**Prepare for Class:**
+
+* Read the following two articles: 
+  - Andrew Piper, “There will be Numbers.” *Cultural Analytics* 1/1, 2016: 1-10. Available [online](https://culturalanalytics.org/article/11062-there-will-be-numbers) .
+  - Savant, Sarah Bowen. “The History of Arabic books in the digital age.” *British Academy Review Summer* (2016): 42-45. Available [online](https://web.archive.org/web/20200926041246/https://www.thebritishacademy.ac.uk/documents/861/BAR28-11-Savant.pdf).
+
+* Windows users\*: install the software Git Bash (see [here](#install-git-bash)). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.
+
+\* Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.
 
 
 
