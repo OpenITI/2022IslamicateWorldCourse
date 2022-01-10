@@ -1,4 +1,4 @@
-# Week 1: Class Introduction and Introduction to Computational Textual Analysis in the Humanities
+# Week 1: Introductions
 
 ***1/27/2022 Thursday***
 
@@ -21,7 +21,7 @@
 \* Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers. 
 
 
-## Installing Git Bash on Windows
+## Installing Git Bash on Windows {#install-git-bash}
 
 NB: Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.
 
