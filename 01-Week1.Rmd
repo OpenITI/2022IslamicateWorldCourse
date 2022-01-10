@@ -1,0 +1,49 @@
+# Week 1: Class Introduction and Introduction to Computational Textual Analysis in the Humanities
+
+***1/27/2022 Thursday***
+
+**In class:** 
+
+* Instructors and participants of the course will introduce themselves and their interests
+* We will introduce the big lines and the syllabus for this course
+* We will discuss two readings (see below) that touch upon major themes of this course
+* Introduction to the command line interface and the file system of your computer
+
+**Prepare for Class:**
+
+
+* Read the following two articles: 
+  - Andrew Piper, “There will be Numbers.” *Cultural Analytics* 1/1, 2016: 1-10. Available [online](https://culturalanalytics.org/article/11062-there-will-be-numbers) .
+  - Savant, Sarah Bowen. “The History of Arabic books in the digital age.” *British Academy Review Summer* (2016): 42-45. Available [online](https://web.archive.org/web/20200926041246/https://www.thebritishacademy.ac.uk/documents/861/BAR28-11-Savant.pdf).
+
+* Windows users\*: install the software Git Bash (see below). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.
+
+\* Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers. 
+
+
+## Installing Git Bash on Windows
+
+NB: Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.
+
+Git Bash is a program that allows you to interact with your computer using 
+commands you type with your keyboard, rather than clicking on graphical objects
+with your mouse. 
+
+We will use this software rather than the standard command line interface in Windows, `cmd`,
+because Git Bash uses the same commands as on Mac and Linux, contrary to `cmd`. 
+
+
+1. Download Git Bash together with Git for windows here: https://gitforwindows.org/
+
+2. Execute the downloaded file by double-clicking it. This will start an installation wizard
+that whill guide you through the installation process. A few notes on the options you will be given during the installation process:
+
+* In the page "Select Components" you can leave the options at their defaults.
+
+* The Windows Explorer integration > Context menu entries option allows opening the Git command prompt (Git Bash) from any folder by clicking with the right mouse button on the folder and selecting Git Bash Here. The last option is also interesting in that it installs a better font for all console windows.
+
+* On the next screen (Adjusting your path environment), choose the most conservative option: Use Git Bash only. This will make git commands available only in Git Bash and will not alter your PATH variable. Click Next.
+
+* Another important setting: line endings. As you may know, Windows and Unix systems (Linux, Mac) have different formats of line breaks on text files. If you write a file with Windows line breaks, another person may have problems opening that file in Linux and vice versa. The line endings setting allows you to normalize this. Choosing the second option (Checkout as-is, commit Unix-style line endings), that won't change the line breaks when the file arrives but will convert them to Unix-style when you commit. That way, you don't risk committing Windows-style line breaks and everything is kept in Unix-style. Don't worry, even though you are in Windows, most of the text editors can read Unix line breaks just fine.
+
+* After that one more Next, Finish, and Git and Git Bash are installed!
