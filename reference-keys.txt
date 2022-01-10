@@ -1,5 +1,6 @@
 course-syllabus---preliminaries
 course-summary
+virtual-classroom
 instructors
 dr.-jonathan-parkes-allen
 professor-sarah-bowen-savant
@@ -14,9 +15,8 @@ class-assignments-20
 final-group-project-40-and-the-research-collaboratories
 class-presentation-10
 faculty-student-communication
-emergency-protocol
 course-schedule
-week-1-class-introduction-and-introduction-to-computational-textual-analysis-as-a-method
+week-1-introductions
 week-2
 week-3-corpus-construction-and-past-approaches-to-computational-textual-analysis-ii
 week-4-corpus-construction-and-past-approaches-to-computational-textual-analysis-iii
@@ -40,10 +40,12 @@ copyright-notice
 academic-accommodations-for-students-who-experience-sexual-misconduct
 diversity
 faculty-student-communication-1
-emergency-protocol-1
+emergency-protocol
 forms-of-address-names-and-pronouns-and-self-identification
 statement-in-support-of-students-with-children
 communication-with-peers
 student-resources-and-academic-services
 basic-needs-security
 technology-policy
+week-1-introductions-1
+install-git-bash
