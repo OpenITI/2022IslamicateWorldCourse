@@ -134,6 +134,7 @@
 <li class="chapter" data-level="2" data-path="week-1-introductions-1.html"><a href="week-1-introductions-1.html"><i class="fa fa-check"></i><b>2</b> Week 1: Introductions</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="week-1-introductions-1.html"><a href="week-1-introductions-1.html#install-git-bash"><i class="fa fa-check"></i><b>2.1</b> Installing Git Bash on Windows</a></li>
+<li class="chapter" data-level="2.2" data-path="week-1-introductions-1.html"><a href="week-1-introductions-1.html#activate-bash-mac"><i class="fa fa-check"></i><b>2.2</b> Activating bash in Terminal on Mac</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -163,7 +164,8 @@
 <li>Instructors and participants of the course will introduce themselves and their interests</li>
 <li>We will introduce the big lines and the syllabus for this course</li>
 <li>We will discuss two readings (see below) that touch upon major themes of this course</li>
-<li>Introduction to the command line interface and the file system of your computer</li>
+<li>Introduction to the command line interface (running programs by typing commands
+with your keyboard rather than clicking icons with your mouse) and the file system of your computer</li>
 </ul>
 <p><strong>Prepare for Class:</strong></p>
 <ul>
@@ -172,9 +174,13 @@
 <li>Andrew Piper, “There will be Numbers.” <em>Cultural Analytics</em> 1/1, 2016: 1-10. Available <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">online</a> .</li>
 <li>Savant, Sarah Bowen. “The History of Arabic books in the digital age.” <em>British Academy Review Summer</em> (2016): 42-45. Available <a href="https://web.archive.org/web/20200926041246/https://www.thebritishacademy.ac.uk/documents/861/BAR28-11-Savant.pdf">online</a>.</li>
 </ul></li>
-<li>Windows users*: install the software Git Bash (see below). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.</li>
+<li>Prepare for your first encounter with the command line interface:
+<ul>
+<li>Windows users: install the software Git Bash (see <a href="week-1-introductions-1.html#install-git-bash">below</a>). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.</li>
+<li>Mac users: you don’t have to install a new program; we will use the built-in application Terminal.
+Follow the instructions <a href="week-1-introductions-1.html#activate-bash-mac">below</a> to prepare Terminal for class.</li>
+</ul></li>
 </ul>
-<p>* Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.</p>
 <div id="install-git-bash" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Installing Git Bash on Windows</h2>
 <p>NB: Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.</p>
@@ -195,6 +201,32 @@ that whill guide you through the installation process. A few notes on the option
 <li><p>Another important setting: line endings. As you may know, Windows and Unix systems (Linux, Mac) have different formats of line breaks on text files. If you write a file with Windows line breaks, another person may have problems opening that file in Linux and vice versa. The line endings setting allows you to normalize this. Choosing the second option (Checkout as-is, commit Unix-style line endings), that won’t change the line breaks when the file arrives but will convert them to Unix-style when you commit. That way, you don’t risk committing Windows-style line breaks and everything is kept in Unix-style. Don’t worry, even though you are in Windows, most of the text editors can read Unix line breaks just fine.</p></li>
 <li><p>After that one more Next, Finish, and Git and Git Bash are installed!</p></li>
 </ul>
+</div>
+<div id="activate-bash-mac" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Activating bash in Terminal on Mac</h2>
+<p>There are multiple command line systems, each with their own grammar and lexicon;
+these systems are often referred to as “shells.” We are going to use one such shell
+called bash.</p>
+<p>On older Mac <a href="https://www.macworld.co.uk/feature/os-x-macos-versions-3662757/">operation systems</a>
+(prior to MacOS Catalina (2019)), Terminal uses
+bash by default; for more recent operation systems, we will have to make bash
+the default.</p>
+<ol style="list-style-type: decimal">
+<li>Open Terminal by opening Finder, and then clicking Applications &gt; Utilities &gt; Terminal
+(alternatively, you can use Spotlight to find Terminal: press the
+<code>command</code> and space keys on your keyboard and start typing Terminal;
+click <code>Terminal</code> in the search results to open the program).<br />
+</li>
+<li>The Terminal program will open, containing two lines of text.
+The last character you see is called the “prompt”: it prompts you to write commands.
+If the prompt is the <code>$</code> character, you’re all set: Terminal is already using bash.</li>
+<li>If the prompt is the <code>%</code> character, you’ll have to type the following command after that <code>%</code>:
+<code>chsh -s /bin/bash</code>
+and then press Enter to execute the command.
+Terminal will ask you for your password; type it (you won’t see it appear,
+for security reasons) and press Enter again.</li>
+<li>Close and reopen Terminal; the prompt should now be a <code>$</code></li>
+</ol>
 
 </div>
 </div>

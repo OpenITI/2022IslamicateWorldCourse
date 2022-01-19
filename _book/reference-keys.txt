@@ -49,3 +49,4 @@ basic-needs-security
 technology-policy
 week-1-introductions-1
 install-git-bash
+activate-bash-mac

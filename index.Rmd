@@ -130,19 +130,20 @@ Faculty and advisors use email and ELMS to convey important information, and stu
 * Instructors and participants of the course will introduce themselves and their interests
 * We will introduce the big lines and the syllabus for this course
 * We will discuss two readings (see below) that touch upon major themes of this course
-* Introduction to the command line interface and the file system of your computer
+* Introduction to the command line interface (running programs by typing commands
+with your keyboard rather than clicking icons with your mouse) and the file system of your computer
 
 **Prepare for Class:**
+
 
 * Read the following two articles: 
   - Andrew Piper, “There will be Numbers.” *Cultural Analytics* 1/1, 2016: 1-10. Available [online](https://culturalanalytics.org/article/11062-there-will-be-numbers) .
   - Savant, Sarah Bowen. “The History of Arabic books in the digital age.” *British Academy Review Summer* (2016): 42-45. Available [online](https://web.archive.org/web/20200926041246/https://www.thebritishacademy.ac.uk/documents/861/BAR28-11-Savant.pdf).
 
-* Windows users\*: install the software Git Bash (see [here](#install-git-bash)). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.
-
-\* Mac and Linux users do not need to install Git Bash; they can use built-in software on their computers.
-
-
+* Prepare for your first encounter with the command line interface: 
+  - Windows users: install the software Git Bash (see [below](#install-git-bash)). Please do this before 25 January and contact the instructors if you encounter any problem installing this software, so we can help you out before class.
+  - Mac users: you don't have to install a new program; we will use the built-in application Terminal.
+    Follow the instructions [below](#activate-bash-mac) to prepare Terminal for class.
 
 ### Week 2: 
 
