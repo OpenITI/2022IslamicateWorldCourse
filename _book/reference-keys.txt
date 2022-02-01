@@ -50,3 +50,11 @@ technology-policy
 week-1-introductions-1
 install-git-bash
 activate-bash-mac
+week-2-r-bootcamp-metadata-i
+installing-r
+on-mac
+on-windows
+installing-rstudio
+on-mac-1
+on-windows-1
+the-rstudio-interface
